@@ -6,7 +6,7 @@
 #include <UCA2_uart.h>        // UART setup 
 #include "pins.h"             // linked in bare_bones solution 
 #include "subsystem.h"        // linked in bare_bones solution 
-
+#include <i2c.h>
 
 CTL_TASK_t terminal_task,sub_task,sys_task; // name your task (first thing to do when setting up a new task (1))
 
@@ -33,7 +33,7 @@ void main(void){
   P7OUT=0xFF;
   P7DIR=0xFF;
   //init complete turn on LED0 and all others off
-  P7OUT=0x1F;
+  P7OUT=0x55;
 
   //DO this first
   ARC_setup(); 
@@ -43,6 +43,9 @@ void main(void){
 
   //initialize UART
   UCA2_init_UART(UART_PORT,UART_TX_PIN_NUM,UART_RX_PIN_NUM);
+
+  //set up I2C bus function(unsigned int port,unsigned int sda,unsigned int scl)
+  initI2C(4,1,0);
 
   //setup bus interface
   initARCbus(0x1F);   // Default addr for "SYS" subsystem, should be changed for specific subsystems.

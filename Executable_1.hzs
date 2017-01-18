@@ -21,8 +21,9 @@
  <Memory3/>
  <Memory4/>
  <Project>
-  <ProjectSessionItem path="Example_Bare_Bones" name="unnamed" />
-  <ProjectSessionItem path="Example_Bare_Bones;Example_Bare_Bones" name="unnamed" />
+  <ProjectSessionItem path="Temp Sensor" name="unnamed" />
+  <ProjectSessionItem path="Temp Sensor;Temp Sensor" name="unnamed" />
+  <ProjectSessionItem path="Temp Sensor;Temp Sensor;Source Files" name="unnamed" />
  </Project>
  <Register1/>
  <Register2/>
@@ -44,6 +45,11 @@
  <Watch4>
   <Watches active="0" update="Never" />
  </Watch4>
- <Files/>
- <MSP430CrossStudioWindow activeProject="Example_Bare_Bones" autoConnectTarget="" debugSearchFileMap="" fileDialogInitialDirectory="" fileDialogDefaultFilter="*.c" autoConnectCapabilities="0" debugSearchPath="" buildConfiguration="MSP430 Debug" />
+ <Files>
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Default" x="2" debugPath="Z:/ARC-2/Daughter Projects/COMM Daughter Board/Temp sensor/main.c" y="47" path="Z:/ARC-2/Daughter Projects/COMM Daughter Board/Temp sensor/main.c" left="0" selected="0" name="unnamed" top="21" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Default" x="0" debugPath="Z:/ARC-2/Daughter Projects/COMM Daughter Board/Temp sensor/commands.c" y="67" path="Z:/ARC-2/Daughter Projects/COMM Daughter Board/Temp sensor/commands.c" left="0" selected="1" name="unnamed" top="13" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Default" x="0" debugPath="Z:/ARC-2/Daughter Projects/COMM Daughter Board/Temp sensor/Executable_1.hzp" y="9" path="Z:/ARC-2/Daughter Projects/COMM Daughter Board/Temp sensor/Executable_1.hzp" left="0" selected="0" name="unnamed" top="0" />
+  <SessionOpenFile useTextEdit="1" useBinaryEdit="0" codecName="Default" x="0" debugPath="Z:/ARC-2/Daughter Projects/COMM Daughter Board/Temp sensor/i2c.h" y="43" path="Z:/ARC-2/Daughter Projects/COMM Daughter Board/Temp sensor/i2c.h" left="0" selected="0" name="unnamed" top="18" />
+ </Files>
+ <MSP430CrossStudioWindow activeProject="Temp Sensor" autoConnectTarget="MSP-FET430UIF(V3)" debugSearchFileMap="" fileDialogInitialDirectory="" fileDialogDefaultFilter="*.c" autoConnectCapabilities="528255" debugSearchPath="" buildConfiguration="MSP430 Debug" />
 </session>
